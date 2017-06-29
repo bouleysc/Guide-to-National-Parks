@@ -1,0 +1,46 @@
+body, .modal-content {
+  background-color: #e6e8fa;
+}
+
+.header {
+  color: #e6e8fa;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 4em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.logo {
+  max-height: 20vh;
+  border: solid red;
+  margin: 5px;
+}
+
+#map {
+  height: 600px;
+}
+
+#map2{
+  height: 360px;
+}
+
+#map3 {
+  height: 220px;
+}
+
+.maps {
+  border: solid 0.5em black;
+}
+
+.list {
+  font-size: 1.5em;
+}
