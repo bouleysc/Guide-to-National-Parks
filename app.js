@@ -50,8 +50,8 @@ function initMap() {
   var contentAcadia = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/acadia.jpeg" alt="acadia">'+
-  '<h2 class="modal-title" >Acadia National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Acadia National Park</h1>'+'<h2 class="modal-title">Est. 1919</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Cadillac Mountain, Bass Harbor Head, Thunder Hole, Jordan Pond, Sand Beach, Asticou Azalea Garden, Wild Gardens of Acadia, Bubble Rock Overlook, Blue Hill Overlook, Gorham Mountain Trailhead, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/acad/index.htm">www.nps.gov/acad/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Acadia National Park">Add to Favorites</button>'+
@@ -70,11 +70,11 @@ function initMap() {
   var contentAmericanSamoa = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/american_samoa.jpg" alt="american samoa">'+
-  '<h2 class="modal-title">National Park of American Samoa</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">National Park of American Samoa</h1>'+'<h2 class="modal-title">Est. 1988</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Pola Island Trail, World War 2 Heritage Trail, Lower Sauma Ridge Trail, Tuafanua Trail, Blunts Point Trail, Breakers Point Trail, Vatia Bay, Mount &#39;Alava, Si&#39;u Point Trail, Oge Beach Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/npsa/index.htm">www.nps.gov/npsa/</a></p>'+
-  '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title= National Park of American Samoa">Add to Favorites</button>'+
+  '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="National Park of American Samoa">Add to Favorites</button>'+
   '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'+
   '</div>'+'</div>'+'</div>'+'</div>';
   var americanSamoaMarker = new google.maps.Marker({
@@ -90,8 +90,8 @@ function initMap() {
   var contentArches = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/arches.jpg" alt="arches">'+
-  '<h2 class="modal-title">Arches National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Arches National Park</h1>'+'<h2 class="modal-title">Est. 1971</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Delicate Arch, Landscape Arch, Corona Arch, Double Arch, Fiery Furnace, Balanced Rock, Turret Arch, North Window, Courthouse Towers, Devil&#39;s Garden, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/arch/index.htm">www.nps.gov/arch/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Arches National Park">Add to Favorites</button>'+
@@ -110,8 +110,8 @@ function initMap() {
   var contentBadlands = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/badlands.jpg" alt="badlands">'+
-  '<h2 class="modal-title">Badlands National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Badlands National Park</h1>'+'<h2 class="modal-title">Est. 1978</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Pinnacles Overlook, Big Badlands Overlook, Yellow Mounds Overlook, Saddle Pass Trailhead, Conata Basin Overlook, Panorama Point, White River Valley Overlook, Medicine Root Loop, Fossil Exhibit Trail, Castle Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/badl/index.htm">www.nps.gov/badl/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Badlands National Park">Add to Favorites</button>'+
@@ -130,8 +130,8 @@ function initMap() {
   var contentBigBend = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/big_bend.jpg" alt="big bend">'+
-  '<h2 class="modal-title">Big Bend National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Big Bend National Park</h1>'+'<h2 class="modal-title">Est. 1944</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Emory Peak, Window Trail, Boquillas Canyon Trail, Santa Elena Canyon Trail, Lost Mine Trail, Sam Nail Ranch, Boot Canyon Trail, Cattail Falls, Rio Grande Village Nature Trail, Grapevine Hills Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/bibe/index.htm">www.nps.gov/bibe/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Big Bend National Park">Add to Favorites</button>'+
@@ -150,8 +150,8 @@ function initMap() {
   var contentBiscayne = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/biscayne.jpg" alt="biscayne">'+
-  '<h2 class="modal-title">Biscayne National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Biscayne National Park</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Boca Chita Key, Maritime Heritage Trail, Jones Family Historic District and Jones Lagoon, Elliot Key, Stiltsville, Biscayne Bay, Hurricane Creek, Adam&#39;s Key, Sands Key, Totten Key, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/bisc/index.htm">www.nps.gov/bisc/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Biscayne National Park">Add to Favorites</button>'+
@@ -170,8 +170,8 @@ function initMap() {
   var contentBlackCanyon = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/black_canyon.jpg" alt="black canyon">'+
-  '<h2 class="modal-title">Black Canyon of the Gunnison National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Black Canyon of the Gunnison National Park</h1>'+'<h2 class="modal-title">Est. 1999</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Chasm View, Pulpit Rock Overlook, Tomichi Point, Cedar Point Nature Trail, Gunnison Point, Painted Wall View, Cross Fissures View, Sunset View, Kneeling Camel View, Rim Rock Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/blca/index.htm">www.nps.gov/blca/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Black Canyon of the Gunnison National Park">Add to Favorites</button>'+
@@ -190,8 +190,8 @@ function initMap() {
   var contentBryceCanyon = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/bryce_canyon.jpg" alt="bryce canyon">'+
-  '<h2 class="modal-title">Bryce Canyon National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Bryce Canyon National Park</h1>'+'<h2 class="modal-title">Est. 1928</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Sunrise Point, Mossy Cave, Peek-A-Boo Trailhead, Inspiration Point, Bryce Point, Rainbow Point, Paria View, Natural Bridge, Agua Canyon, Fairyland Loop Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/brca/index.htm">www.nps.gov/brca/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Bryce Canyon National Park">Add to Favorites</button>'+
@@ -210,8 +210,8 @@ function initMap() {
   var contentCanyonlands = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/canyonlands.jpeg" alt="canyonlands">'+
-  '<h2 class="modal-title">Canyonlands National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Canyonlands National Park</h1>'+'<h2 class="modal-title">Est. 1964</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Mesa Arch, False Kiva, Grand View Point, Shafer Canyon Overlook, Green River Overlook, Druid Arch, Big Spring Canyon, Buck Canyon, Confluence of Green and Colorado Rivers, Elephant Hill, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/cany/index.htm">www.nps.gov/cany/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Canyonlands National Park">Add to Favorites</button>'+
@@ -230,8 +230,8 @@ function initMap() {
   var contentCapitolReef = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/capitol_reef.jpg" alt="capitol reef">'+
-  '<h2 class="modal-title">Capitol Reef National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Capitol Reef National Park</h1>'+'<h2 class="modal-title">Est. 1971</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Gifford Homestead, Goosenecks Overlook, Fruita Schoolhouse, Pioneer Register, Upper Muley Twist Canyon Trail, Petroglyphs, Frying Pan Trail, Ferns Nipple, Slickrock Divide, Pectols Pyramid, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/care/index.htm">www.nps.gov/care/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Capitol Reef National Park">Add to Favorites</button>'+
@@ -250,8 +250,8 @@ function initMap() {
   var contentCarlsbad = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/carlsbad.jpg" alt="carlsbad">'+
-  '<h2 class="modal-title">Carlsbad Caverns National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Carlsbad Caverns National Park</h1>'+'<h2 class="modal-title">Est. 1930</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Amphitheatre, Slaughter Canyon Cave, Rattlesnake Canyon Trailhead, Natural Entrance Trail, Lechuguilla Cave, Big Room Trail, King&#39;s Palace, Lion&#39;s Tail, Green Lake, Bottomless Pit, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/cave/index.htm">www.nps.gov/cave/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Carlsbad Caverns National Park">Add to Favorites</button>'+
@@ -270,8 +270,8 @@ function initMap() {
   var contentChannelIslands = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/channel_islands.jpg" alt="channel islands">'+
-  '<h2 class="modal-title">Channel Islands National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Channel Islands National Park</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Anacapa Island, Scorpion Ranch, Santa Cruz Island, Cavern Point, Inspiration Point, National Marine Sanctuary, Smugglers Cove, Albert Anchorage, Devils Peak, Painted Cave, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/chis/index.htm">www.nps.gov/chis/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Channel Islands National Park">Add to Favorites</button>'+
@@ -290,8 +290,8 @@ function initMap() {
   var contentCongaree = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/congaree.jpg" alt="congaree">'+
-  '<h2 class="modal-title">Congaree National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Congaree National Park</h1>'+'<h2 class="modal-title">Est. 2003</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Congaree Vistors&#39; Center, Broadwalk Loop Trail, Bates Ferry Trail, Kingsnake Trail, River Trail, Oakridge Trail, Cedar Creek, Bluff Trail, Sims Trail, Weston Lake Loop Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/cong/index.htm">www.nps.gov/cong/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Congaree National Park">Add to Favorites</button>'+
@@ -310,8 +310,8 @@ function initMap() {
   var contentCraterLake = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/crater_lake.jpg" alt="crater lake">'+
-  '<h2 class="modal-title">Crater Lake National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Crater Lake National Park</h1>'+'<h2 class="modal-title">Est. 1902</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Crater Lake, Phantom Ship Overlook, Mount Mazama, Cleetwood Cove, Watchman Overlook, Cloudcap Overlook, Castle Crest Wildflower Garden, Discovery Point, Mount Scott, Llao Rock, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/crla/index.htm">www.nps.gov/crla/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Crater Lake National Park">Add to Favorites</button>'+
@@ -330,8 +330,8 @@ function initMap() {
   var contentCuyahoga = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/cuyahoga.jpg" alt="cuyahoga valley">'+
-  '<h2 class="modal-title">Cuyahoga Valley National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Cuyahoga Valley National Park</h1>'+'<h2 class="modal-title">Est. 2000</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Brandywine Falls, Cuyahoga River, Blue Hen Falls, Great Falls of Tinkers Creek, Beaver Marsh Boardwalk View, Ledges Trailhead, Ledges Overlook, Buttermilk Falls, Bridal Veil Falls, Twin Sisters Falls, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/cuva/index.htm">www.nps.gov/cuva/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Cuyahoga Valley National Park">Add to Favorites</button>'+
@@ -350,8 +350,8 @@ function initMap() {
   var contentDeathValley = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/death_valley.jpg" alt="death valley">'+
-  '<h2 class="modal-title">Death Valley National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Death Valley National Park</h1>'+'<h2 class="modal-title">Est. 1994</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Zabriskie Point, Dante&#39;s View, Ubehebe Crater, Titus Canyon, Badwater Basin, Darwin Falls, Mesquite Flat Sand Dunes, Mosaic Canyon Trail, Salt Creek Intrepretive Trail, Aguereberry Point, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/deva/index.htm">www.nps.gov/deva/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Death Valley National Park">Add to Favorites</button>'+
@@ -370,8 +370,8 @@ function initMap() {
   var contentDenali = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/denali.jpg" alt="denali">'+
-  '<h2 class="modal-title">Denali National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Denali National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 1917</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Denali, Wonder Lake, Denali State Park, Polychrome Overlook, Stony Hill Scenic Overlook, Sable Pass, Savage River Loop, West Buttress, Ruth Glacier, Reflection Pond, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/dena/index.htm">www.nps.gov/dena/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Denali National Park">Add to Favorites</button>'+
@@ -390,8 +390,8 @@ function initMap() {
   var contentDryTortugas = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/dry_tortugas.jpeg" alt="dry tortugas">'+
-  '<h2 class="modal-title">Dry Tortugas National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Dry Tortugas National Park</h1>'+'<h2 class="modal-title">Est. 1992</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Garden Key, Bush Key, Loggerhead Key, South Coaling Dock Ruins, North Coaling Dock Ruins, Shot Furnace, Fort Jefferson Boat Pier, Tortugas Banks, Dingghy Beach, North Swim Beach, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/drto/index.htm">www.nps.gov/drto/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Dry Tortugas National Park">Add to Favorites</button>'+
@@ -410,8 +410,8 @@ function initMap() {
   var contentEverglades = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/everglades.jpg" alt="everglades">'+
-  '<h2 class="modal-title">Everglades National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Everglades National Park</h1>'+'<h2 class="modal-title">Est. 1947</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Anhinga Trail, Shark Valley, Pa-hay-okee Trail, Mahogany Hammock, Gumbo Limbo Trail, West Lake Trail, Nine Mile Pond Canoe Trail, Long Pine Key, Eco Pond, Alligator Boat Tours, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/ever/index.htm">www.nps.gov/ever/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Everglades National Park">Add to Favorites</button>'+
@@ -430,8 +430,8 @@ function initMap() {
   var contentGatesArctic = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/gates_arctic.jpg" alt="gates arctic">'+
-  '<h2 class="modal-title">Gates of the Artic National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Gates of the Artic National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Arrigetch Peaks, Mount Igikpak, Tinayguk River, Walker Lake, Kobuk National Preserve, Endicott Mountains, Alatna River, Noatak River, John River, Koyukuk River, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/gaar/index.htm">www.nps.gov/gaar/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Gates of the Arctic National Park and Preserve">Add to Favorites</button>'+
@@ -450,8 +450,8 @@ function initMap() {
   var contentGlacier = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/glacier.jpg" alt="glacier">'+
-  '<h2 class="modal-title">Glacier National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Glacier National Park</h1>'+'<h2 class="modal-title">Est. 1910</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Highline Trail, Swiftcurrent Lake, Hidden Lake, Grinnell Glacier, Ptarmigan Tunnel, Iceberg Lake, Avalanche Lake, St Mary Fallls, Cracker Lake, Virginia Falls, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/glac/index.htm">www.nps.gov/glac/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Glacier National Park">Add to Favorites</button>'+
@@ -470,8 +470,8 @@ function initMap() {
   var contentGlacierBay = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/glacier_bay.jpg" alt="glacier bay">'+
-  '<h2 class="modal-title">Glacier Bay National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Glacier Bay National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Margerie Glacier, Glacier Bay, Tarr Inlet, Mount Fairweather, John Hopkins Glacier, Muir Glacier, Lamplugh Glacier, Mount Crillon, Brady Glacier, Riggs Glacier, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/glba/index.htm">www.nps.gov/glba/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Glacier Bay National Park and Preserve">Add to Favorites</button>'+
@@ -490,8 +490,8 @@ function initMap() {
   var contentGrandCanyon = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/grand_canyon.jpeg" alt="grand canyon">'+
-  '<h2 class="modal-title">Grand Canyon National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Grand Canyon National Park</h1>'+'<h2 class="modal-title">Est. 1919</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Havasu Falls, Grand Canyon Skywalk, Mather Point, South Kaibab Trail, Desert View Watchtower, Toroweap Overlook, Yavapai Point, Plateau Point Trail, South Rim Trail, Hopi Point, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/grca/index.htm">www.nps.gov/grca/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Grand Canyon National Park">Add to Favorites</button>'+
@@ -510,8 +510,8 @@ function initMap() {
   var contentGrandTeton = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/grand_teton.jpg" alt="grand teton">'+
-  '<h2 class="modal-title">Grand Teton National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Grand Teton National Park</h1>'+'<h2 class="modal-title">Est. 1929</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Jackson Lake, Jenny Lake, Grand Teton, Hidden Falls, Cascade Canyon Trail, Lake Solitude, Snake River Overlook, Schwabachers Landing, Taggart Lake, Bradley Lake, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/grte/index.htm">www.nps.gov/grte/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Grand Teton National Park">Add to Favorites</button>'+
@@ -530,8 +530,8 @@ function initMap() {
   var contentGreatBasin = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/great_basin.jpg" alt="great basin">'+
-  '<h2 class="modal-title">Great Basin National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Great Basin National Park</h1>'+'<h2 class="modal-title">Est. 1986</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Lehman Cave, Prometheus Tree Stump, Mather Overlook, Wheeler Peak Glacier, Lexington Arch, Island Forest Trail, Mountain View Nature Trail, Teresa Lake, Bristlecone Pine Trail, Stargazing, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/grba/index.htm">www.nps.gov/grba/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Great Basin National Park">Add to Favorites</button>'+
@@ -550,8 +550,8 @@ function initMap() {
   var contentGreatSandDunes = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/sand_dunes.jpg" alt="great sand dunes">'+
-  '<h2 class="modal-title">Great Sand Dunes National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Great Sand Dunes National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 2004</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Zapata Falls, Mosca Pass, Montville Nature Trail, Tijeras Peak, Mount Zwischen, Medano Creek, Sand Ramp Trail, Medano Lake, Mount Herard, Music Pass, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/grsa/index.htm">www.nps.gov/grsa/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Great Sand Dunes National Park and Preserve">Add to Favorites</button>'+
@@ -570,8 +570,8 @@ function initMap() {
   var contentGreatSmoky = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/great_smoky.jpg" alt="great smoky">'+
-  '<h2 class="modal-title">Great Smoky National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Great Smoky National Park</h1>'+'<h2 class="modal-title">Est. 1934</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Cades Cove, Clingmans Dome, Ramsey Cascades, Roaring Fork, Laurel Falls Trail, Mingo Falls, Alum Cave Trail, Soco Falls, The Sinks, Meigs Falls, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/grsm/index.htm">www.nps.gov/grsm/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Great Smoky National Park">Add to Favorites</button>'+
@@ -590,8 +590,8 @@ function initMap() {
   var contentGuadalupeMtns = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/guadalupe_mtns.jpg" alt="guadalupe mountains">'+
-  '<h2 class="modal-title">Guadalupe Mountains National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Guadalupe Mountains National Park</h1>'+'<h2 class="modal-title">Est. 1966</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Guadalupe Peak, McKittrick Canyon, Devil&#39;s Hall Trail, El Capitan, McKittrick Canyon Trailhead, Hunter Peak, Salt Basin Overlook, Smith Spring Loop, Manzanita Spring, Dog Canyon, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/gumo/index.htm">www.nps.gov/gumo/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Guadalupe Mountains National Park">Add to Favorites</button>'+
@@ -610,8 +610,8 @@ function initMap() {
   var contentHaleakala = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/haleakala.jpg" alt="haleakala">'+
-  '<h2 class="modal-title">Haleakal&#257; National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Haleakal&#257; National Park</h1>'+'<h2 class="modal-title">Est. 1916</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Haleakal&#257;, Seven Sacred Pools at Ohe&#39;o, Ohe&#39;o Gulch, Makahiku Falls, Waimoku Falls, Kalahaku Overlook, Leleiwi Overlook, Magnetic Peak, Hanakauhi, Haupa&#39;akea Peak, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/hale/index.htm">www.nps.gov/hale/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Haleakal&#257; National Park">Add to Favorites</button>'+
@@ -630,8 +630,8 @@ function initMap() {
   var contentHawaiiVolcanoes = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/hawaii_volcanoes.jpg" alt="hawaii volcanoes">'+
-  '<h2 class="modal-title">Hawai&#39;i Volcanoes National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Hawai&#39;i Volcanoes National Park</h1>'+'<h2 class="modal-title">Est. 1916</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>K&#299;lauea, Hawaiian Volcano Observatory, Thurston Lava Tube, Pu&#39;u&#39;&#332;&#39;&#333;, Pu&#39;u Loa Petroglyphs, Mauna Ulu, Steam Vents, Kealakomo, Napau Trail, Lava Taking Back The Road, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/havo/index.htm">www.nps.gov/havo/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Hawaii Volcanoes National Park">Add to Favorites</button>'+
@@ -650,8 +650,8 @@ function initMap() {
   var contentHotSprings = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/hot_springs.jpg" alt="hot springs">'+
-  '<h2 class="modal-title">Hot Springs National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Hot Springs National Park</h1>'+'<h2 class="modal-title">Est. 1921</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Hot Springs Mountain, Goat Rock Trail, Fordyce Bathhouse, Bathhouse Row, Lake Ouachita, Grand Promenade, Sunset Trail, and Hot Springs Haunted Tours.</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/hosp/index.htm">www.nps.gov/hosp/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Hot Springs National Park">Add to Favorites</button>'+
@@ -670,8 +670,8 @@ function initMap() {
   var contentIsleRoyale = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/isle_royale.jpg" alt="isle royale">'+
-  '<h2 class="modal-title">Isle Royale National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Isle Royale National Park</h1>'+'<h2 class="modal-title">Est. 1940</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>McCargoe Cove, Rock Harbor, Lookout Louise, Greenstone Ridge Trail, Scoville Point, Siskiwit Lake, Passage Island, Mount Ojibway, Huginnin Cove, Malone Bay, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/isro/index.htm">www.nps.gov/isro/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Isle Royale National Park">Add to Favorites</button>'+
@@ -690,8 +690,8 @@ function initMap() {
   var contentJoshuaTree = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/joshua_tree.jpeg" alt="joshua tree">'+
-  '<h2 class="modal-title">Joshua Tree National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Joshua Tree National Park</h1>'+'<h2 class="modal-title">Est. 1994</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Keys View, Barker Dam, Lost Horse Mine, Cottonwood Spring, Arch Rock, Hidden Valley Nature Trail, Skull Rock Nature Trail, Hall of Horrors, Wall Street Mill, Split Rock Loop, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/jotr/index.htm">www.nps.gov/jotr/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Joshua Tree National Park">Add to Favorites</button>'+
@@ -710,8 +710,8 @@ function initMap() {
   var contentKatmai = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/katmai.jpg" alt="katmai">'+
-  '<h2 class="modal-title">Katmai National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Katmai National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Cook Inlet, Alagnak Wild River, Brooks Camp, Mount Katmai, Mount Griggs, Mount Kaguyak, Trident Volcano, Mount Denison, Valley of Ten Thousand Smokes, Savonoski Loop, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/katm/index.htm">www.nps.gov/katm/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Katmai National Park and Preserve">Add to Favorites</button>'+
@@ -730,8 +730,8 @@ function initMap() {
   var contentKenaiFjords = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/kenai_fjords.jpg" alt="kenai fjords">'+
-  '<h2 class="modal-title">Kenai Fjords National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Kenai Fjords National Park</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Exit Glacier, Harding Icefield Trail, Nuka Bay Mining District, Pederson Glacier, Six Mile Creek, Clam Gulch, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/kefj/index.htm">www.nps.gov/kefj/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Kenai Fjords National Park">Add to Favorites</button>'+
@@ -750,8 +750,8 @@ function initMap() {
   var contentKingsCanyon = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/kings_canyon.jpg" alt="kings canyon">'+
-  '<h2 class="modal-title">Kings Canyon National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Kings Canyon National Park</h1>'+'<h2 class="modal-title">Est. 1940</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Rae Lakes, Kearsarge Pass, The General Grant Tree, Mist Falls, Copper Creek Trailhead, Roaring River Falls, Mount Spencer, Charlotte Dome, Mount Goddard, Jennie Lakes Wilderness, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/seki/index.htm">www.nps.gov/seki/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Kings Canyon National Park">Add to Favorites</button>'+
@@ -770,8 +770,8 @@ function initMap() {
   var contentKobukValley = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/kobuk_valley.jpg" alt="kobuk valley">'+
-  '<h2 class="modal-title">Kobuk Valley National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Kobuk Valley National Park</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Arctic Sand Dunes, Kobuk River, Ahnewetut Creek, Baird Mountains, and plenty of unexplored land!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/kova/index.htm">www.nps.gov/kova/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Kobuk Valley National Park">Add to Favorites</button>'+
@@ -790,8 +790,8 @@ function initMap() {
   var contentLakeClark = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/lake_clark.jpg" alt="lake clark">'+
-  '<h2 class="modal-title">Lake Clark National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Lake Clark National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Six Mile Lake, Turquoise Lake, Chinitna Bay, Crescent Lake, Silver Salmon Creek, Neacola Mountains, Redoubt Volcano, Hardenburg Bay, Kontrashibuna Lake, Red Glacier, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/lacl/index.htm">www.nps.gov/lacl/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Lake Clark National Park and Preserve">Add to Favorites</button>'+
@@ -810,8 +810,8 @@ function initMap() {
   var contentLassenVolcanic = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/lassen_volcano.jpg" alt="lassen volcano">'+
-  '<h2 class="modal-title">Lassen Volcanic National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Lassen Volcanic National Park</h1>'+'<h2 class="modal-title">Est. 1916</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Lassen Peak, Bumpass Hell, Kings Creek Falls, Painted Dunes, Bumpass Mountain, Terminal Geyser, Chaos Crags, Manzanita Lake, Juniper Lake, Boiling Springs Lake, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/lavo/index.htm">www.nps.gov/lavo/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Lassen Volcano National Park">Add to Favorites</button>'+
@@ -830,8 +830,8 @@ function initMap() {
   var contentMammothCave = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/mammoth_cave.jpg" alt="mammoth cave">'+
-  '<h2 class="modal-title">Mammoth Cave National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Mammoth Cave National Park</h1>'+'<h2 class="modal-title">Est. 1941</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Great Onyx Cave, Fat Man&#39;s Misery, Wind Cave, Tall Man&#39s Misery, Cedar Sink Trail, Green River, Grand Avenue Tour, Gothic Avenue Tour, Echo River, Trog Tour, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/maca/index.htm">www.nps.gov/maca/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Mammoth Cave National Park">Add to Favorites</button>'+
@@ -850,8 +850,8 @@ function initMap() {
   var contentMesaVerde = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/mesa_verde.jpg" alt="mesa verde">'+
-  '<h2 class="modal-title">Mesa Verde National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Mesa Verde National Park</h1>'+'<h2 class="modal-title">Est. 1906</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Cliff Palace, Balcony House, Spruce Tree House, Sun Point View, Petroglyph Point Trail, Sun Temple, Long House, Square Tower House, Step House, Navajo Canyon View, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/meve/index.htm">www.nps.gov/meve/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Mesa Verde National Park">Add to Favorites</button>'+
@@ -870,8 +870,8 @@ function initMap() {
   var contentMountRainier = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/mount_rainier.jpg" alt="mount rainier">'+
-  '<h2 class="modal-title">Mount Rainier National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Mount Rainier National Park</h1>'+'<h2 class="modal-title">Est. 1899</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Mount Rainier, Camp Muir, Reflection Lake, Grove of the Patriarchs Trail, Narada Falls, Tolmie Peak, Tipsoo Lake, Myrtle Falls, Skyline Trail, Christine Falls, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/mora/index.htm">www.nps.gov/mora/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Mount Rainier National Park">Add to Favorites</button>'+
@@ -890,8 +890,8 @@ function initMap() {
   var contentNorthCascades = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/north_cascades.jpg" alt="north cascades">'+
-  '<h2 class="modal-title">North Cascades National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">North Cascades National Park</h1>'+'<h2 class="modal-title">Est. 1968</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Ladder Creek Falls, Gorge Overlook Trail, Diablo Lake, Hidden Lake Trail, Ross Lake, Sahale Glacier, Blue Lake Trail, Hannegan Pass, Cutthroat Pass, Trappers Peak, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/noca/index.htm">www.nps.gov/noca/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="North Cascades National Park">Add to Favorites</button>'+
@@ -910,8 +910,8 @@ function initMap() {
   var contentOlympic = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/olympic.jpg" alt="olympic">'+
-  '<h2 class="modal-title">Olympic National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Olympic National Park</h1>'+'<h2 class="modal-title">Est. 1938</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Hoh Rainforest, Hurricane Ridge, Marymere Falls, Lake Crescent, Hole-in-the-Wall, Hurricane Ridge, Grand Pass, Tree Root Cave, Sol Duc River, Ruby Beach, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/olym/index.htm">www.nps.gov/olym/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Olympic National Park">Add to Favorites</button>'+
@@ -930,8 +930,8 @@ function initMap() {
   var contentPetrifiedForest = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/petrified_forest.jpg" alt="petrified forest">'+
-  '<h2 class="modal-title">Petrified Forest National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Petrified Forest National Park</h1>'+'<h2 class="modal-title">Est. 1962</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Jasper Forest, Ice Cream Rocks, Newspaper Rock, Agate Bridge, Blue Mesa Trail, The Tepees, Puerco Pueblo, Whipple Point, Nizhoni Point, Kachina Point, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/pefo/index.htm">www.nps.gov/pefo/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Petrified Forest National Park">Add to Favorites</button>'+
@@ -950,8 +950,8 @@ function initMap() {
   var contentPinnacles = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/pinnacles.jpg" alt="pinnacles">'+
-  '<h2 class="modal-title">Pinnacles National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Pinnacles National Park</h1>'+'<h2 class="modal-title">Est. 2013</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Bear Gulch Caves, Balconies Cliff Trails, Rim Trail Loop, High Peaks Loop, South Wilderness Trail, Chalone Peak Trail, Peaks View, Juniper Canyon Loop, North Wilderness Trail Loop, Machete Ridge, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/pinn/index.htm">www.nps.gov/pinn/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Pinnacles National Park">Add to Favorites</button>'+
@@ -970,8 +970,8 @@ function initMap() {
   var contentRedwood = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/redwood.jpg" alt="redwood">'+
-  '<h2 class="modal-title">Redwood National and State Parks</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Redwood National and State Parks</h1>'+'<h2 class="modal-title">Est. 1968</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Trees of Mystery, Fern Canyon, Stout Grove Trail, Gold Bluffs Beach, Bald Hills, Howland Hills Road, Enderts Beach Road, Newton B. Drury Scenic Parkway, Davison Road, Cal-Barrel Road, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/redw/index.htm">www.nps.gov/redw/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Redwood National and State Parks">Add to Favorites</button>'+
@@ -990,8 +990,8 @@ function initMap() {
   var contentRockyMtn = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/rocky_mtn.jpg" alt="rocky mountain">'+
-  '<h2 class="modal-title">Rocky Mountain National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Rocky Mountain National Park</h1>'+'<h2 class="modal-title">Est. 1915</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Bear Lake, Dream Lake, Rainbow Curve Overlook, Alberta Falls, Emerald Lake, Sprague Lake, Cub Lake Trail, Sky Pond, Longs Peak, Calypso Cascades, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/romo/index.htm">www.nps.gov/romo/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Rocky Mountain National Park">Add to Favorites</button>'+
@@ -1010,8 +1010,8 @@ function initMap() {
   var contentSaguaro = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/saguaro.jpg" alt="saguaro">'+
-  '<h2 class="modal-title">Saguaro National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Saguaro National Park</h1>'+'<h2 class="modal-title">Est. 1994</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Cactus Forest Drive, Signal Hill, Cactus Garden Trail, King Canyon Trail, Gate Pass, Douglas Spring Trail, Wasson Peak, Mica View, Ernie&#39;s Falls, Tanque Verde Falls, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/sagu/index.htm">www.nps.gov/sagu/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Saguaro National Park">Add to Favorites</button>'+
@@ -1030,8 +1030,8 @@ function initMap() {
   var contentSequoia = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/sequoia.jpeg" alt="sequoia">'+
-  '<h2 class="modal-title">Sequoia National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Sequoia National Park</h1>'+'<h2 class="modal-title">Est. 1890</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>General Sherman, Mount Whtiney, Moro Rock, Crystal Cave, Giant Forest, Forester Pass, Mount Langley, Tunnel Log, President Tree, Bear Hill Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/seki/index.htm">www.nps.gov/seki/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Sequoia National Park">Add to Favorites</button>'+
@@ -1050,8 +1050,8 @@ function initMap() {
   var contentShenandoah = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/shenandoah.jpg" alt="shenandoah">'+
-  '<h2 class="modal-title">Shenandoah National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Shenandoah National Park</h1>'+'<h2 class="modal-title">Est. 1935</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Appalachian Trail, Old Rag Mountian, Hawksbill Mountain, Stony Man Mountain, Dark Hollow Falls, Bearfence Mountain, Thornton Gap, Overall Run Falls, Hogback Overlook, Rose River Falls, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/shen/index.htm">www.nps.gov/shen/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Shenandoah National Park">Add to Favorites</button>'+
@@ -1071,8 +1071,8 @@ function initMap() {
   var contentTheodoreRoosevelt = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/theodore_roosevelt.jpg" alt="theodore roosevelt park">'+
-  '<h2 class="modal-title">Theodore Roosevelt National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Theodore Roosevelt National Park</h1>'+'<h2 class="modal-title">Est. 1978</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Skyline Vista, Medora Overlook, Scoria Point Overlook, Badlands Overlook, Buck Hill, Maltese Cross Cabin, Boicourt Overlook Trail, Painted Canyon Nature Trail, Ridgeline Trail, Oxbow Overlook, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/thro/index.htm">www.nps.gov/thro/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Theodore Roosevelt National Park">Add to Favorites</button>'+
@@ -1091,8 +1091,8 @@ function initMap() {
   var contentVirginIslands = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/virgin_islands.jpg" alt="virgin islands">'+
-  '<h2 class="modal-title">Virgin Islands National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Virgin Islands National Park</h1>'+'<h2 class="modal-title">Est. 1956</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Trunk Bay, Honeymoon Beach, Annaberg Sugar Plantation, Hawksnest Beach, Cinnamon Bay, Gibney Beach, Petroglyphs, Coral Reef Underwater Park Trail, Little Lameshur Bay, Bordeaux Mountain, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/viis/index.htm">www.nps.gov/viis/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Virgin Islands National Park">Add to Favorites</button>'+
@@ -1112,8 +1112,8 @@ function initMap() {
   var contentVoyageurs = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/voyageurs.jpg" alt="voyageurs">'+
-  '<h2 class="modal-title">Voyageurs National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Voyageurs National Park</h1>'+'<h2 class="modal-title">Est. 1975</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Ash River, Rainy Lake, Kabetogama Peninsula, Ellsworth Rock Gardens, Crane Lake, Locator Lake Trail, Namakan Island, Echo Bay Trail, Blind Ash Bay Trail, Ethno-botanical Garden Trail, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/voya/index.htm">www.nps.gov/voya/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Voyageurs National Park">Add to Favorites</button>'+
@@ -1132,8 +1132,8 @@ function initMap() {
   var contentWindCave = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/wind_cave.jpg" alt="wind cave">'+
-  '<h2 class="modal-title">Wind Cave National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Wind Cave National Park</h1>'+'<h2 class="modal-title">Est. 1903</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Wind Cave, Rankin Ridge, Wind Cave Canyon, Centennial Trail, Cold Brook Canyon, Boland Ridge, East Bison Flats, Highland Creek, Sanctuary Trail, and Lookout Point.</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/wica/index.htm">www.nps.gov/wica/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Wind Cave National Park">Add to Favorites</button>'+
@@ -1152,8 +1152,8 @@ function initMap() {
   var contentWrangell_stElias = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/kennecott.jpg" alt="kennecott">'+
-  '<h2 class="modal-title">Wrangell-St. Elias National Park and Preserve</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Wrangell-St. Elias National Park and Preserve</h1>'+'<h2 class="modal-title">Est. 1980</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Kennecott Mines, Hubbard Glacier, Mount Blackburn, Mount Wrangell, Regal Mountain, Mount Bona, University Peak, Mount Bear, Nabesna Glacier, Atna Peaks, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/wrst/index.htm">www.nps.gov/wrst/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Wrangell-St. Elias National Park and Preserve">Add to Favorites</button>'+
@@ -1172,8 +1172,8 @@ function initMap() {
   var contentYellowstone = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/yellowstone.jpg" alt="yellowstone">'+
-  '<h2 class="modal-title">Yellowstone National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Yellowstone National Park</h1>'+'<h2 class="modal-title">Est. 1872</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Old Faithful, Mammoth Hot Springs, Grand Prismatic Spring, Grand Canyon of the Yellowstone, Morning Glory Pool, Upper Yellowstone Falls, Lamar Valley, Tower Fall, Norris Geyser Basin, Mount Washburn, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.yellowstonepark.com/">www.yellowstonepark.com</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Yellowstone National Park">Add to Favorites</button>'+
@@ -1192,8 +1192,8 @@ function initMap() {
   var contentYosemite = '<div id="myModal" class="modal fade" role="dialog">'+'<div class="modal-dialog">'+
   '<div class="modal-content">'+'<div class="modal-header">'+'<button type="button" class="close" data-dismiss="modal">&times;</button>'+
   '<img class="img-responsive" src="/images/yosemite.jpg" alt="yosemite">'+
-  '<h2 class="modal-title">Yosemite National Park</h2>'+
-  '<div class="modal-body">'+'<h4><b>Top features: </b></h4>'+
+  '<h1 class="modal-title">Yosemite National Park</h1>'+'<h2 class="modal-title">Est. 1890</h2>'+
+  '<div class="modal-body">'+'<h3><b>Top features: </b></h3>'+
   '<p>Half Dome, Glacier Point, Yosemite Falls, Tunnel View, Tuolumne Meadows, Mist Trail, Bridalveil Fall, Hetch Hetchy, El Capitan, Taft Point, and plenty more!</p>'+
   '<p>Find out more here: <a href="https://www.nps.gov/yose/index.htm">www.nps.gov/yose/</a></p>'+
   '</div>'+'<div class="modal-footer">'+'<button type="button" class="btn btn-primary fav" data-title="Yosemite National Park">Add to Favorites</button>'+
@@ -1216,10 +1216,11 @@ function initMap() {
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <img class="img-responsive" src="/images/zion.jpg" alt="zion">
-          <h2 class="modal-title">Zion National Park</h2>
+          <h1 class="modal-title">Zion National Park</h1>
+          <h2 class="modal-title">Est. 1919</h2>
           </div>
         <div class="modal-body">
-          <h4><b>Top features: </b></h4>
+          <h3><b>Top features: </b></h3>
           <p>The Narrows, Angel&#39;s Landing, Zion Canyon, Mount Carmel Highway, Kolob Canyons,
            Emerald Pools, Weeping Rock, Riverside Walk, Kanarraville Falls, The Subway, and plenty more!</p>
           <p>Find out more here: <a href="https://www.zionnationalpark.com">www.zionnationalpark.com</a></p>

@@ -24,6 +24,10 @@ h2 {
   font-family: 'Dancing Script', cursive;
 }
 
+h3 {
+  margin-top: 0;
+}
+
 .logo {
   max-height: 20vh;
   border: solid red;
