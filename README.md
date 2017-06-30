@@ -1,4 +1,4 @@
-<img width="1254" alt="screen shot 2017-06-29 at 2 16 22 pm" src="https://user-images.githubusercontent.com/26415208/27743713-2bf18ee8-5d7a-11e7-8ab2-02671436144a.png">
+<img width="1171" alt="screen shot 2017-06-30 at 10 07 32 am" src="https://user-images.githubusercontent.com/26415208/27744284-22e80898-5d7c-11e7-9c21-b9e497e2bfa3.png">
 
 # Guide-to-National-Parks
 I've created a guide to U.S. National Parks. I included a few maps to show all of the parks. I added markers that respond to a modal that provides a picture, title, established year,  top features, and a link to each park's website. There is a select box to show a list of the parks and access the selected park's modal. There is also a way to create a favorites list.
@@ -11,8 +11,8 @@ There isn't any great guides to the national parks. They involve a lot of clicki
 * Bootstrap - styling framework
 * JavaScript and jQuery
 
-##Author
+## Author
 * Sally Bouley - Initial work
 
-##Acknowledgements
+## Acknowledgements
 * Amazing photographers who have posted their photos to Google
