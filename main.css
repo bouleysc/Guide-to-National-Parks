@@ -2,6 +2,11 @@ body, .modal-content {
   background-color: #e6e8fa;
 }
 
+.modal-title {
+  text-align: center;
+  font-weight: bold;
+}
+
 .header {
   color: #e6e8fa;
   text-align: center;
@@ -22,7 +27,7 @@ h2 {
 .logo {
   max-height: 20vh;
   border: solid red;
-  margin: 5px;
+  margin: 5px 15px;
 }
 
 #map {
@@ -43,4 +48,5 @@ h2 {
 
 .list {
   font-size: 1.5em;
+  margin-left: 20px;
 }
