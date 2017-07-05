@@ -34,15 +34,15 @@ h3 {
   margin: 5px 15px;
 }
 
-#map {
+#usMap {
   height: 600px;
 }
 
-#map2{
+#alaskaMap {
   height: 360px;
 }
 
-#map3 {
+#hawaiiMap {
   height: 220px;
 }
 
