@@ -13,7 +13,7 @@ function initMap() {
     }
   });
   usMap.setOptions({ minZoom: 3, maxZoom: 15 });
-  setUsMarkers(usMap);
+  setUSMarkers(usMap);
 
   var alaskaMap = new google.maps.Map(document.getElementById('alaskaMap'), {
     zoom: 4,
@@ -601,7 +601,7 @@ for(var i=0; i<parkInfo.length; i++){
           <p>Find out more here: <a href="${parkInfo[i].website}">${parkInfo[i].website}</a></p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary fav" data-target="${parkInfo[i].id}" data-title="${parkInfo[i].title}">Add to Favorites</button>
+          <button type="button" class="btn btn-primary fav" data-complete-text="My Favorites" data-target="${parkInfo[i].id}" data-title="${parkInfo[i].title}">Add to Favorites</button>
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
@@ -658,7 +658,7 @@ function setAlaskaMarkers(alaskaMap) {
   }
 }
 
-function setUsMarkers(usMap) {
+function setUSMarkers(usMap) {
   var usMarkers = [];
   for (var i=0; i<parkInfo.length; i++){
     if(parkInfo[i].map === 'usMap') {
@@ -677,11 +677,14 @@ function setUsMarkers(usMap) {
   }
 }
 
+var favoriteParks = [];
+
 function favorite() {
-  $('.fav').on('click', function(){
+  $('.fav').one('click', function(){
     var title = $(this).attr('data-title');
     var target = $(this).attr('data-target');
-    $(this).text('My Favorites');
-    $('#favorite').append('<option data-target=' + target +'>' + title + '</option>');
+    $(this).button('complete');
+    favoriteParks.push(title);
+    $('#favorite').append('<option data-target=' + target + '>' + title + '</option>');
   });
 }
