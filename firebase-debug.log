@@ -1,0 +1,31 @@
+[debug] [2017-09-30T04:28:10.505Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T04:28:10.508Z] Command:       /usr/local/Cellar/node/8.2.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-30T04:28:10.508Z] CLI Version:   3.12.0
+[debug] [2017-09-30T04:28:10.508Z] Platform:      darwin
+[debug] [2017-09-30T04:28:10.508Z] Node Version:  v8.2.1
+[debug] [2017-09-30T04:28:10.508Z] Time:          Fri Sep 29 2017 22:28:10 GMT-0600 (MDT)
+[debug] [2017-09-30T04:28:10.508Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T04:28:10.520Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T04:28:10.520Z] > authorizing via signed-in user
+[debug] [2017-09-30T04:28:10.522Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-30T04:28:10.522Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/CAYWbq1R-sVt--TJJSK7YGzcYKlfchKcsmVGG5M8Yrg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Sep 29 2017 22:28:10 GMT-0600 (MDT)
+[debug] [2017-09-30T04:28:10.887Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T04:28:10.902Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/quarter-1-national-park  
+ Fri Sep 29 2017 22:28:10 GMT-0600 (MDT)
+[debug] [2017-09-30T04:28:11.275Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T04:28:11.276Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/quarter-1-national-park/tokens  
+ Fri Sep 29 2017 22:28:11 GMT-0600 (MDT)
+[debug] [2017-09-30T04:28:11.996Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'quarter-1-national-park'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing ./ directory for upload...
+[debug] [2017-09-30T04:28:14.509Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/quarter-1-national-park/uploads/-KvG1f3PUHbx09zLYgFT?fileCount=202&message=  
+ Fri Sep 29 2017 22:28:14 GMT-0600 (MDT)
